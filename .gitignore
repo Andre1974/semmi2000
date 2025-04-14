@@ -1,0 +1,44 @@
+# 📦 Node-Module-Ordner
+node_modules/
+
+# 🚧 Build-Output (Next.js)
+.next/
+out/
+
+# 🔐 Umgebungsvariablen
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🧪 Test Coverage
+coverage/
+
+# 🗑️ Log-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💻 System-Dateien (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# ⚙️ Editor-Konfigurationen (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📷 Bilder-Caching (Next.js Images)
+public/cache/
+
+# 📂 Lokale Datenbanken oder temporäre Dateien
+*.sqlite
+*.bak
+*.tmp
+
+# 🔒 Versteckte Schlüssel oder Sicherheitsdateien (optional)
+.key
+.cert
+*.pem
